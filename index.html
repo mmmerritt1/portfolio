@@ -2,22 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <style>
-      h1 {color:red;}
-      h2 {color:purple;}
-      p {color:blue;}
-    </style>
+    <title>New Beginings</title>
+    <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
   </head>
 
-<body>
+  <body>
+    <main>
 
-  <main>
+      <h1 class="title">Class 2 and 3</h1>
+      <p>This is the class 02 assignment, Part 1</p>
 
-    <h1>Class 2 and 3</h1>
-    <p>This is the class 02 assignment, Part 1</p>
-
-    <article>
-      <h2>Part 1</h2>
+    <article class="centertext">
+      <h2 class="sections">Part 1</h2>
       <p>Create Portfolio folder under foundations</p>
       <p>Create index.html file inside of Portfolio folder </p>
       <p>Create Images folder inside of Portfolio folder</p>
@@ -25,25 +21,25 @@
       <p>2 HTML pages, linked together in nav, one with a list of links</p>
     </article>
 
-    <article>
-      <h2>Part 2 (Class 3)</h2>
+    <article  class="centertext">
+      <h2 class="sections">Part 2 (Class 3)</h2>
       <p>Create Styles folder inside of Portfolio folder</p>
       <p>Create create a file called first-stylesheet.css in Styles folder</p>
       <p>Experiment creating 50 lines of cose in tehe css file</p>
     </article>
 
-    <article>
-      <h2>Part 3 (Class 3)</h2>
+    <article  class="centertext">
+      <h2 class="sections">Part 3 (Class 3)</h2>
       <p>Create a Github repository called Portfolio and link to your local repo</p>
       <p>Push your work up to Github and submit link to Github repo for the assignment</p>
       <p>Publish your portfolio repo on Github</p>
     </article>
 
-  </main>
+    </main>
 
-    <h1>Vacation Places</h1>
-      <p>Visit the US</p>
-      <br>
+      <h1>Vacation Places</h1>
+        <p>Visit the US</p>
+        <br>
     <canvas id="myCanvas"></canvas>
       <script>
         var canvas = document.getElementById("myCanvas");
@@ -52,38 +48,54 @@
         ctx.fillRect(0, 0, 400, 20);
       </script>
       <p>Adventures of the Napoli Coast</p>
+
     <figure>
       <img src="images/napolicoast1.jpg" alt="Napoli Coast 1" width="225" height="225">
       <img src="images/napolicoast2.jpg" alt="Napoli Coast 2" width="225" height="225">
       <p></p>
-      <img src="images/sailingbynapolicoast.jpg" alt="Sailing by Napoli Coast" width="450" height="450">
+      <img src="images/sailingbynapolicoast.jpg" alt="Sailing by Napoli Coast" width="375" height="450">
     </figure>
-    <font size="6" color="red">Moving ON!</font>
+
     <article>
-      <h2>More Family Adventures</h2>
-        <p>Pick one</p>
-        <dl>
-        <dt>Jackson Hole Wyoming</dt>
-        <dd>"Riding the Hoback River raft style"</dd>
-        <dt>Oahu Polynisian Cultural Center</dt>
-        <dd>"Cultures and colors of the Center"</dd>
+      <h2 class="leadin">Adventures in the US</h2>
+        <p>Try:</p>
+        <dl class="places">
+
+        <dt>Jackson Hole Wyoming</dt>
+        <dd>"Riding the Hoback River raft style"</dd>
+        <p></p>
+        <dt>Oahu Polynisian Cultural Center</dt>
+        <dd>"Cultures and colors of the Center"</dd>
+        <p></p>
+        <dt>New York City</dt>
+        <dd>"Statue of Liberty, Empire State Building, Brooklyn Bridge, etc."</dd>
+        <p></p>
+        <dt>Harry Potter Orlando</dt>
+        <dd>"Discover the adventures of Harry Potter"</dd>
+        <p></p>
+        <dt>Leave the US for the Bahamas</dt>
+        <dd>"Enter the Princess Cays"</dd>
         </dl>
     </article>
+
     <nav>
-      <ul>
-        <li><a href="newyork.html">Pictures of New York</a></li>
-        <li><a href="jacksonhole.html">Pictures of Jackson Hole</a></li>
-        <li><a href="oahu.html">Pictures of Oahu</a></li>
+      <ul class="listlinks">
+        <li><a href="jacksonhole.html">Jackson Hole Hoback River</a></li>
+        <li><a href="oahu.html">Oahu</a></li>
+        <li><a href="newyork.html">New York</a></li>
+        <li><a href="pottersworld.html">Harry Potter Orlando</a></li>
+        <li><a href="princesscays.html">Princess Cays</a></li>
       </ul>
     </nav>
-  </body>
-  <footer>
+
+  <footer >
     <p>Assignment done by Mike Merritt</p>
-    <address>
+    <address class="footerblock">
       Questions send to: <a href="mailto:mmmerritt1@outlook.com">Mike M</a>.<br>
       Univeristy of Washington <br>
       1410 NE Campus Parkway <br>
       Seattle, Wa. 98195    <br>
     </address>   
   </footer>
+  </body>
 </html>
