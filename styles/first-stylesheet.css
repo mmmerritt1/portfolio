@@ -1,9 +1,4 @@
-/* same as 1 rem */
-html {font-size: 16px;}
-
- img {width: 30%}
-
- .title {
+  .title {
     color: green;
     text-align: center;
     font-size: 6rem;
@@ -32,15 +27,8 @@ html {font-size: 16px;}
     font-size: 2rem
   }
 
-  /* nested selector */
-  .document-history p {
-
-    width: 50%;
-  }
-
   .places {
     font-style: italic;
-    text-align: center;
     color: purple;
     font-size: 2rem;
     background-color: salmon;
@@ -59,4 +47,12 @@ html {font-size: 16px;}
     font-style: italic;
     color: white;
     width: 30%;
+  }
+
+  .pictitles {
+    background-color: black;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+    color: white;
   }
